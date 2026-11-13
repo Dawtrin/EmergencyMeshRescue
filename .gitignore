@@ -1,0 +1,28 @@
+# Build artifacts
+**/target/
+**/build/
+**/.gradle/
+
+# Databases & local state
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Android local properties
+local.properties
+.cxx/
+
+# IDE & OS
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Archives & internal backups
+*.zip
+.git_backup_*
+scratch/
